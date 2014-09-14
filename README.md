@@ -1,4 +1,4 @@
-templates
+Templates
 =========
 
 Various code templates
