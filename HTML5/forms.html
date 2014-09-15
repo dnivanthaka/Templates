@@ -1,0 +1,41 @@
+<!--
+HTML5 Semantic elements. Refer http://www.w3schools.com/html/html5_semantic_elements.asp
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Template Document</title>
+</head>
+
+<body>
+<header>
+	<nav>
+		<a href="">Home</a>
+		<a href="">Link 1</a>
+		<a href="">Link 2</a>
+	</nav>
+</header>
+<section>
+<form id="form1">
+<input type="text" name="test1" maxlength="35" />
+<input type="number" name="points" min="0" max="100" step="10" value="30">
+Enter a date before 1980-01-01:
+<input type="date" name="bday" max="1979-12-31"><br>
+Enter a date after 2000-01-01:
+<input type="date" name="bday" min="2000-01-02"><br>
+<input type="color" name="favcolor">
+<input type="range" name="points" min="0" max="10">
+<input type="month" name="bdaymonth">
+<input type="week" name="week_year" required />
+<input type="time" name="usr_time">
+<input type="email" name="email">
+<input type="tel" name="usrtel">
+</form>
+Quantity (between 1 and 5):
+<input type="number" name="quantity" form="form1" min="1" max="5">
+</section>
+<footer>
+	<p>Copyright D.N. Amerasinghe</p>
+</footer>
+</body>
+</html>
